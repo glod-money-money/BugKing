@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>待办事项新增页</title>
+	</head>
+	<style type="text/css">
+		div{
+			width: 800px;
+			height: auto;
+			margin: 100px auto;
+			text-align: center;
+			border: 1px solid gray;
+			position: relative;
+			padding: 10px;
+			background-image: linear-gradient(to bottom right , #00B7FF, white,#00B7FF);
+		}
+		textarea{
+			width: 700px;
+			height: 250px;
+			resize: none;
+			margin-top:20px ;
+			outline: none;
+			margin-left:20px;
+		}
+		#sub{
+			width:50px;
+			heightx:30px;
+			margin-left:44px;
+		}
+	</style>
+	<body>
+		<div>
+		<form action="thingadd" method="post">
+			<h2>添加待办事项</h2>
+			<textarea rows="10" cols="30" name="content" ></textarea>
+			<br>
+			<input id="sub" type="submit" value="提交"/>
+		</form>
+		</div>
+	</body>
+</html>
